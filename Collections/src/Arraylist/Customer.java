@@ -1,4 +1,4 @@
-package collections;
+package Arraylist;
 
 public class Customer {
 String name;

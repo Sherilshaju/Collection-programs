@@ -1,4 +1,4 @@
-package collections;
+package Set;
 
 public class NewCard {
 	String symbol;

@@ -1,10 +1,10 @@
-package collections;
+package Arraylist;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class ArrayList_RemoveAll_example {
+public class Arraylist_Example_set {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,7 +27,7 @@ public class ArrayList_RemoveAll_example {
 		System.out.println("Enter the updated name");
 		String namer=s.next();
 		System.out.println(list.set(0, namer));//set(index,variable)
-		list.removeAll(list);
+		
 		System.out.println("List the values");
 		    Iterator Itr=list.iterator();//it is used to traverse the elements one by one
 		    while(Itr.hasNext())
@@ -37,9 +37,6 @@ public class ArrayList_RemoveAll_example {
 			}
 			}
 
-		
+		}
 
 	
-	}
-
-

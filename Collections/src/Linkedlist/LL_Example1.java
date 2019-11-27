@@ -1,4 +1,4 @@
-package collections;
+package Linkedlist;
 import java.util.LinkedList;
 import java.util.Scanner;
 public class LL_Example1 {
